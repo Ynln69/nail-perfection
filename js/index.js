@@ -6,7 +6,7 @@ $('.main-gallery-slider').slick({
     arrows: false,
     dots: true,
     autoplay: true,
-    autoplaySpeed: 1000
+    autoplaySpeed: 4000
   });
   
 $('.main-benefits-slider').slick({
