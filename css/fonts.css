@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap");
+@font-face {
+  font-family: "Objective-Black";
+  src: url("../fonts/Objective-Black.otf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Objective-Medium";
+  src: url("../fonts/Objective-Medium.otf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Objective-Regular";
+  src: url("../fonts/Objective-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,15 @@
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+    @media (min-width: 834px) {
+      flex-direction: row;
+    }
+  }
+  .about-text p {
+    font-weight: 500;
+    font-size: 24px;
+  }

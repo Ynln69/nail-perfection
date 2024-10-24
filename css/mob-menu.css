@@ -1,0 +1,61 @@
+.mobile-menu {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+  }
+}
+.mobile-btn {
+  position: relative;
+  width: 25px;
+  height: 3px;
+  background: #1f1f3b;
+}
+.mobile-btn::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 0;
+  width: 25px;
+  height: 3px;
+  background: #1f1f3b;
+}
+.mobile-btn::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  right: 0;
+  width: 25px;
+  height: 3px;
+  background: #1f1f3b;
+}
+.mobile-btn-active {
+  position: relative;
+  width: 25px;
+  height: 3px;
+  background: #1f1f3b;
+  transform: rotate(45deg);
+}
+.mobile-btn-active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 25px;
+  height: 3px;
+  background: #1f1f3b;
+  transform: rotate(90deg);
+}
+.mobile-btn-active::after {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header-nav-mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,118 @@
+.footer {
+  background-color: #f5d3e3;
+  padding: 26px 0 22px 0;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 68px 0 29px 0;
+  }
+}
+.footer-inner {
+  position: relative;
+}
+.footer-nav {
+  padding: 54px 0 81px 0;
+}
+@media screen and (max-width: 1030px) {
+  .footer-nav {
+    padding: 34px 0 71px 0;
+  }
+}
+@media screen and (max-width: 830px) {
+  .footer-nav {
+    padding: 14px 0 51px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-nav {
+    display: block;
+    padding: 194px 0 0 0;
+  }
+}
+.footer-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .footer-nav-list {
+    flex-direction: column;
+    max-width: 81.27%;
+    margin: 0 auto;
+  }
+}
+.footer-nav-list-column {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 22px;
+}
+@media screen and (max-width: 768px) {
+  .footer-nav-list-column {
+    border: none;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-nav-list-column:nth-child(1) {
+    margin-bottom: 46px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-nav-item {
+    margin: 0;
+  }
+}
+.footer-nav-item a {
+  display: inline-block;
+
+  color: #1f1f3b;
+  font-size: clamp(1.125rem, 1.91vw + 0.656rem, 2.375rem);
+  line-height: clamp(1.35rem, 2.292vw + 0.787rem, 2.85rem);
+  transition: color 0.3s linear;
+}
+
+.footer-nav-item:hover a {
+  color: #4d4de9;
+}
+.footer-icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 10.34%;
+  height: auto;
+  margin-left: -5.17%;
+}
+@media screen and (max-width: 768px) {
+  .footer-icon {
+    width: 120px;
+    margin-left: -60px;
+  }
+}
+.footer-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  margin-left: -50%;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1f1f3b;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .footer-text {
+    position: static;
+    margin: 37px 0 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer-text {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

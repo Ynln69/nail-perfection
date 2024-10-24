@@ -1,0 +1,110 @@
+.main-benefits {
+    padding-top: 84px;
+  }
+  @media screen and (max-width: 768px) {
+    .main-benefits {
+      padding-top: 36px;
+    }
+  }
+  .main-benefits-slider {
+    margin-top: 27px;
+  }
+  @media screen and (max-width: 768px) {
+    .main-benefits-slider {
+      max-width: 77.25%;
+      margin: 27px auto 0 auto;
+    }
+  }
+  .main-benefits-slider-item {
+    max-width: 273px !important;
+    margin-right: 131px;
+  }
+  @media screen and (max-width: 1230px) {
+    .main-benefits-slider-item {
+      margin-right: 81px;
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    .main-benefits-slider-item {
+      max-width: 233px !important;
+      margin-right: 41px;
+    }
+  }
+  @media screen and (max-width: 830px) {
+    .main-benefits-slider-item {
+      max-width: 163px !important;
+      margin-right: 41px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .main-benefits-slider-item {
+      max-width: 100% !important;
+      margin-right: 0;
+    }
+  }
+  .main-benefits-slider-item-icon {
+    max-width: 52%;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    .main-benefits-slider-item-icon {
+      max-width: 142px;
+    }
+  }
+  .main-benefits-slider-item p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 60px;
+  }
+  .main-benefits-slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 32.6%;
+    margin: 49px auto 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    .main-benefits-slider .slick-dots {
+      max-width: 100%;
+    }
+  }
+  .main-benefits-slider .slick-dots button {
+    background: #5a5959;
+    border-radius: 30px;
+    color: transparent;
+    border: none;
+    width: 54px;
+    height: 8px;
+    display: block;
+  }
+  @media screen and (max-width: 1230px) {
+    .main-benefits-slider .slick-dots button {
+      width: 48px;
+    }
+  }
+  @media screen and (max-width: 1030px) {
+    .main-benefits-slider .slick-dots button {
+      width: 38px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .main-benefits-slider .slick-dots button {
+      width: 54.33px;
+      height: 8px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .main-benefits-slider .slick-dots button {
+      width: 40.33px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .main-benefits-slider .slick-dots button {
+      width: 35.33px;
+    }
+  }
+  .main-benefits-slider .slick-dots .slick-active button {
+    background: #f4c6db;
+  }
